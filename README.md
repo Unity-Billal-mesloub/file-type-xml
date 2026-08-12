@@ -1,10 +1,10 @@
 [![NPM version](https://img.shields.io/npm/v/@file-type/xml.svg)](https://npmjs.org/package/@file-type/xml)
-[![Node.js CI](https://github.com/Borewit/file-type-xml/actions/workflows/nodejs-ci.yml/badge.svg)](https://github.com/Borewit/file-type-xml/actions/workflows/nodejs-ci.yml)
+[![Node.js CI](https://github.com/Unity-Billal-mesloub/file-type-xml/actions/workflows/nodejs-ci.yml/badge.svg)](https://github.com/Unity-Billal-mesloub/file-type-xml/actions/workflows/nodejs-ci.yml)
 [![npm downloads](http://img.shields.io/npm/dm/@file-type/xml.svg)](https://npmcharts.com/compare/@file-type/xml?start=365)
 
 # @file-type/xml
 
-Detector plugin for [file-type](https://github.com/sindresorhus/file-type) for XML files.
+Detector plugin for [file-type](https://github.com/Unity-Billal-mesloub/file-type) for XML files.
 
 ## Installation
 
@@ -14,7 +14,7 @@ npm install @file-type/xml
 
 ## Usage
 
-The following example shows how to add the XML detector to [file-type](https://github.com/sindresorhus/file-type).
+The following example shows how to add the XML detector to [file-type](https://github.com/Unity-Billal-mesloub/file-type).
 ```js
 import {FileTypeParser} from 'file-type';
 import {detectXml} from '@file-type/xml';
@@ -24,7 +24,7 @@ const fileType = await parser.fromFile('example.kml');
 console.log(fileType);
 ```
 
-You can also use the XML detector outside [file-type](https://github.com/sindresorhus/file-type):
+You can also use the XML detector outside [file-type](https://github.com/Unity-Billal-mesloub/file-type):
 ```js
 import {XmlTextDetector} from '@file-type/xml';
 
@@ -55,6 +55,4 @@ console.log(JSON.stringify(fileType)); // Outputs: {"ext":"svg","mime":"image/sv
 - [XHTML](https://en.wikipedia.org/wiki/XHTML)
 - [XLIFF (XML Localization Interchange File Format)](https://en.wikipedia.org/wiki/XLIFF)
 
-## Licence
 
-This project is licensed under the [MIT License](LICENSE.txt). Feel free to use, modify, and distribute as needed.
